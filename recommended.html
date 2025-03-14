@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kings&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/@vectopus/atlas-icons/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Recommended - The Common Crow</title>
+</head><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kings&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Pirata+One&display=swap" rel="stylesheet">
+<body>
+<header>
+    <div class ="banner">
+        <img src="./assets/icons/Torch.gif" class="torch-l" alt="a flickering torch">
+        <h1 id="title">The Common Crow</h1>
+        <img src="./assets/icons/Torch.gif" class="torch-r" alt="a flickering torch">
+        <p id="est">Est. 2025</p>
+    </div>
+    <div class="menu" id="main-menu">
+        <a href="index.html">Home</a>
+        <a href="index.html#recentPostsTitle">Posts</a>
+        <a href="archive.html">Archive</a>
+        <a href="recommended.html">Recommended</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="menuFunction()">
+            <i class="at-menu-square"></i>
+        </a>
+    </div>
+</header>
+<main>
+    <h2 id="page-title">Borrowed Wisdom</h2>
+    <h3 id="pageLine2">Peruse The Common Crow's Recommended Media:</h3>
+    <!--<div id="rec-article">
+        <h3>Articles:</h3>
+        <section id="article-list">
+
+        </section>
+    </div>-->
+    <div id="rec-book">
+        <h3>Books:</h3>
+        <section id="book-list">
+
+        </section>
+    </div>
+    <!--<div id="rec-video">
+        <h3>Video:</h3>
+        <section id="video-list">
+
+        </section>
+    </div>
+    <div id="rec-pods">
+        <h3>Podcasts:</h3>
+        <section id="pod-list">
+
+        </section>
+    </div>-->
+    <script type="module" src="./scripts/main.js"></script>
+    <script type="module" src="./scripts/recommended.js"></script>
+    <script type="module" src="./scripts/recPage.js"></script>
+</main>
+<footer>
+    <hr>
+    <div id="join">
+        <h3>Join the Murder</h3>
+        <form id="join-form">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+
+            <label for="phone">Phone Number: (optional)</label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number">
+
+            <button type="submit">Submit</button>
+        </form>
+        <p>Submit this form to stay up to date on The Common Crow's posts.</p>
+    </div>
+    <p>The Common Crow is of the people for the people.</p>
+</footer>
+</body>
+</html>

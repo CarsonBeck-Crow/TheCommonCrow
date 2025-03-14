@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kings&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/@vectopus/atlas-icons/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>The Common Crow</title>
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kings&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Pirata+One&display=swap" rel="stylesheet">
+
+<body>
+<header>
+    <div class ="banner">
+        <img src="./assets/icons/Torch.gif" class="torch-l" alt="a flickering torch">
+        <h1 id="title">The Common Crow</h1>
+        <img src="./assets/icons/Torch.gif" class="torch-r" alt="a flickering torch">
+        <p id="est">Est. 2025</p>
+    </div>
+    <div class="menu" id="main-menu">
+        <a href="index.html">Home</a>
+        <a href="#recentPostsTitle">Posts</a>
+        <a href="archive.html">Archive</a>
+        <a href="recommended.html">Recommended</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="menuFunction()">
+            <i class="at-menu-square"></i>
+        </a>
+    </div>
+</header>
+
+<main>
+    <section>
+        <h1 id="slogan"><a href="#join">Join the Murder!</a></h1>
+    </section>
+    <div id="recentPostsTitle">
+        <h2>Recent Posts:</h2>
+        <hr>
+    </div>
+    <img src="assets/images/CrowInv3.png" alt="a crow presenting" class="crow-recent">
+    <section id="recent-posts">
+    </section>
+
+    <section id="about">
+        <h2>About The Common Crow:</h2>
+        <hr>
+        <div id="about-content">
+            <p>The object of this website is to shed light on important social and political issues, as well as on the failures of our current two party system.</p>
+            <p>My goal is to illustrate the value, and validity of socialism, and why you should be in support of its rise.</p>
+            <p>Because, I believe that we as human beings all want the same thing...</p>
+            <h3>We all want to be <span style="color: rgb(179, 154 ,46);">HAPPY</span>.</h3>
+            <p>Socialism is, in my eyes, the clearest path to that happiness.</p>
+        </div>
+    </section>
+    <img src="assets/images/CrowInv2.png" alt="a crow spreading wings" class="crow-spread">
+
+    <section id="contact">
+        <h2>Contact The Common Crow:</h2>
+        <hr>
+        <p>Got something you want to say, or a question you'd like to ask?</p>
+        <p>Just fill out this <a href="https://docs.google.com/forms/d/e/1FAIpQLScnDkk6LoHyY1S2tUAX4O2v9MeP0ZzOJcTanN5rhv7LJSHGsA/viewform?usp=sharing" target="_blank" rel="noopener noreferrer">form</a>, and I'll try to get to you as soon as I'm able to!</p>
+    </section>
+</main>
+
+<footer>
+    <hr>
+    <div id="join">
+        <h3>Join the Murder</h3>
+        <form id="join-form">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+
+            <label for="phone">Phone Number: (optional)</label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number">
+
+            <button type="submit">Submit</button>
+        </form>
+        <p>Submit this form to stay up to date on The Common Crow's posts.</p>
+    </div>
+    <p id="forPeople">The Common Crow is of the people for the people.</p>
+</footer>
+<script type="module" src="scripts/posts.js"></script>
+<script type ="module" src="scripts/main.js"></script>
+</body>
+</html>

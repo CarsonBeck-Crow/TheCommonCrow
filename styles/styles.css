@@ -1,0 +1,287 @@
+body {
+    background-color: #0a0a0a;
+    color: ghostwhite;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    text-align: center;
+    color: ghostwhite;
+}
+.banner h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "Pirata One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+}
+.banner img{
+    display: inline-block;
+    vertical-align: middle;
+    height: 250px;
+    width: 250px;
+}
+.banner p{
+    margin-top: -70px;
+    margin-bottom: 45px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgba(179, 154, 46, 0.7);
+}
+.menu{
+    background-color: transparent;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu a{
+    vertical-align: middle;
+    color: ghostwhite;
+    background-color: rgb(179, 154, 46);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 35px;
+    border-radius: 35px;
+    border: 5px solid ghostwhite;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.menu a:hover{
+    background-color: transparent;
+    color: rgb(179, 154, 46);
+}
+.menu .icon{
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .menu a:not(:first-child) {display: none;}
+    .menu .icon{
+        float: right;
+        display: block;
+    }
+}
+@media screen and (max-width: 600px) {
+    .menu.responsive{position: relative;}
+    .menu.responsive a.icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .menu.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+main h2{
+    font-family: "Kings", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+}
+#page-title{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 35px;
+}
+#pageLine2{
+    font-family: "Kings", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+}
+#recent-posts {
+    padding-bottom: 150px;
+}
+script{
+    display: none;
+}
+article{
+    border: 3px solid rgb(179, 154, 46);
+    border-radius: 45px;
+    margin-left: 375px;
+    margin-top: 30px;
+    margin-right: 300px;
+}
+article header{
+    padding-top: 20px;
+}
+#post-title{
+    font-size: 35px;
+}
+#post-content{
+    font-size: 20px;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+article h2{
+    font-family: "Kings", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    text-align: right;
+}
+.recent-posts{
+    background-color: rgb(179, 154, 46);
+    margin-left: 5%;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 45px;
+}
+.recent-posts a {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    text-decoration: underline;
+    vertical-align: middle;
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: black;
+}
+.recent-posts a:hover{
+    color: rgb(102, 69, 173);
+}
+.recent-posts h2{
+    margin-bottom: -10px;
+}
+.post-image{
+    height: 65%;
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.crow-recent{
+    display: inline-block;
+    float: right;
+}
+#archive-list{
+    margin-left: 10%;
+}
+#archive-list a{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: ghostwhite;
+    font-size: 18px;
+    text-decoration: none;
+}
+#archive-list a:hover{
+    color: rgb(150, 111, 232);
+}
+.arc-t{
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+.date-list{
+    padding-right: 8px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+#about-content{
+    text-align: center;
+}
+#about-content h3{
+    font-size: 25px;
+}
+#about-content p{
+    font-size: 20px;
+}
+hr{
+    margin-left: 33%;
+    margin-right: 33%;
+    border-color: rgb(179, 154, 46);
+    margin-top: -40px;
+    margin-bottom: 35px;
+}
+#rec-book, #rec-article, #rec-pods, #rec-video{
+    display: inline-block;
+    vertical-align: middle;
+    horiz-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#rec-book a, #rec-article a, #rec-pods a, #rec-video a{
+    color: ghostwhite;
+    text-decoration: underLine;
+    font-size: 18px;
+}
+#rec-book a:hover, #rec-article a:hover, #rec-pods a:hover, #rec-video a:hover{
+    color: rgb(150, 111, 232);
+}
+#rec-book h3, #rec-article h3, #rec-pods h3, #rec-video h3{
+    text-align: left;
+    color: rgb(179, 154, 46);
+    font-size: 25px;
+}
+#contact{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#contact p{
+    color: ghostwhite;
+    font-size: 20px;
+}
+#contact a{
+    text-decoration: underLine;
+    color: rgb(179, 154, 46);
+    font-size: 20px;
+}
+#join{
+    text-align: center;
+}
+footer{
+    margin-top: 50px;
+}
+footer hr{
+    margin-left: 0;
+    margin-right: 0;
+}
+#slogan{
+    font-family: "Kings", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 48px;
+}
+#slogan a{
+    text-decoration: underLine;
+    color: rgb(179, 154, 46);
+}
+#slogan a:hover{
+    color: rgb(184, 0, 15);
+}
+.crow-spread{
+    display: inline-block;
+    margin-left: 24%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#forPeople{
+    text-align: center;
+    font-family: "kings", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(179, 154, 46);
+}
